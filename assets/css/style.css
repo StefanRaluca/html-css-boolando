@@ -52,3 +52,84 @@ svg {
 .right {
     width: 10%;
 }
+
+/* main style  */
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* container style products */
+.container_products {
+    padding: 5px;
+    width: 33%;
+}
+
+/* style of one product */
+.product {
+    position: relative;
+
+}
+
+/* style img */
+img {
+    max-width: 100%;
+
+}
+
+/* style discount  */
+.discount {
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    width: 60px;
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    text-align: center;
+
+}
+
+/* style of green tast */
+.Sostenibilità {
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    color: white;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+    font-size: small;
+
+}
+
+/* add favorites style */
+.hearts {
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+/* style text description product */
+
+span {
+    font-size: 10px;
+
+
+}
+
+.price_now {
+    color: red;
+    font-weight: bold;
+}
+
+.price_before {
+    text-decoration-line: line-through;
+    margin: 5px;
+}
