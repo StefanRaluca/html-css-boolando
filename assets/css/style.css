@@ -57,13 +57,14 @@ svg {
 main {
     display: flex;
     justify-content: center;
+    width: 900px;
 
 }
 
 /* container style products */
 .container_products {
     padding: 5px;
-    width: 33%;
+    /*    width: 33%; */
 }
 
 /* style of one product */
@@ -133,10 +134,21 @@ span {
     text-decoration-line: line-through;
     margin: 5px;
 }
+
 /* style hover img */
-.display_hover{
+.display_hover {
     display: none;
 }
-.product:hover .display_hover{
-    display:inline;
+
+.product:hover .display_hover {
+    display: inline;
+}
+
+/* style hover second img */
+.display_hover_2 {
+    display: none;
+}
+
+.product:hover .display_hover_2 {
+    display: inline;
 }
