@@ -39,6 +39,7 @@ ul {
 /* style img logo */
 .logo {
     max-width: 20%;
+    filter: drop-shadow(10px 7px 7px #222);
 }
 
 /* style of svg icon */
@@ -143,13 +144,19 @@ span {
     margin: 5px;
 }
 
-/* style hover img */
+/* style hover first img */
+
 .display_hover {
+    display: none;
+}
+
+.products:hover .display_none {
     display: none;
 }
 
 .product:hover .display_hover {
     display: inline;
+
 }
 
 /* style hover second img */
@@ -157,12 +164,20 @@ span {
     display: none;
 }
 
+.products:hover .display_none2 {
+    display: none;
+}
+
 .product:hover .display_hover_2 {
     display: inline;
 }
 
-/* style hover third img */
+/* style hover 3 img */
 .display_hover_3 {
+    display: none;
+}
+
+.products:hover .display_none3 {
     display: none;
 }
 
@@ -170,8 +185,12 @@ span {
     display: inline;
 }
 
-/* style hover third img */
+/* style hover 4 img */
 .display_hover_4 {
+    display: none;
+}
+
+.products:hover .display_none4 {
     display: none;
 }
 
@@ -179,8 +198,12 @@ span {
     display: inline;
 }
 
-/* style hover 4 img */
+/* style hover 5 img */
 .display_hover_5 {
+    display: none;
+}
+
+.products:hover .display_none5 {
     display: none;
 }
 
@@ -188,8 +211,12 @@ span {
     display: inline;
 }
 
-/* style hover 4 img */
+/* style hover 6 img */
 .display_hover_6 {
+    display: none;
+}
+
+.products:hover .display_none6 {
     display: none;
 }
 
