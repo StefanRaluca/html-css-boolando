@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header style */
+header {
+    display: flex;
+    background-color: rgba(255, 105, 0, 1);
+    justify-content: center;
+    height: 50px;
+}
+
+/* style list in nav bar */
+ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+
+}
+
+/* style container nav bar in header */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+/* style of div in nav bar */
+.left {
+    width: 40%;
+    font-weight: bold;
+    color: white;
+}
+
+/* style img logo */
+.logo {
+    max-width: 20%;
+}
+
+/* style of svg icon */
+svg {
+    width: 20px;
+    height: 30px;
+    fill: white;
+    stroke: white;
+}
+
+.right {
+    width: 10%;
+}
