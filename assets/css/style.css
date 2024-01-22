@@ -133,3 +133,10 @@ span {
     text-decoration-line: line-through;
     margin: 5px;
 }
+/* style hover img */
+.display_hover{
+    display: none;
+}
+.product:hover .display_hover{
+    display:inline;
+}
